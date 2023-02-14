@@ -19,7 +19,7 @@ body {
     rgba(121, 9, 87, 0.8632703081232493) 52%,
     rgba(255, 0, 129, 0.9697128851540616) 100%
   ); */
-  background-image: url("../images/thumb-1920-528327.jpg");
+  background-image: url(../images/thumb-1920-528327.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
