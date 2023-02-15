@@ -19,7 +19,7 @@ body {
     rgba(121, 9, 87, 0.8632703081232493) 52%,
     rgba(255, 0, 129, 0.9697128851540616) 100%
   ); */
-  background-image: url(../images/thumb-1920-528327.jpg);
+  background-image: url("../images/thumb-1920-528327.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -496,5 +496,39 @@ div img:nth-child(even) {
   div.paragraph-text div.main-photo img {
     width: 150px;
     height: 230px;
+  }
+}
+
+/* phones screen */
+@media screen and (max-width: 380px) {
+  div.navlist ul {
+    gap: 1em;
+  }
+
+  div.image-gallery-container h1 {
+    padding-top: 5em;
+  }
+
+  div.row-1st,
+  div.row-2nd,
+  div.row-3rd,
+  div.row-4th,
+  div.row-5th,
+  div.row-6th,
+  div.row-7th,
+  div.row-8th {
+    margin-bottom: 5em;
+  }
+
+  div.row-1st img,
+  div.row-2nd img,
+  div.row-3rd img,
+  div.row-4th img,
+  div.row-5th img,
+  div.row-6th img,
+  div.row-7th img,
+  div.row-8th img {
+    width: 166px;
+    height: 237px;
   }
 }
